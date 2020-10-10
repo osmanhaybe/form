@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', 'Sans-serif';
+  background-color: #6dbad1;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .section {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 375px;
+}
+
+body .section h2 {
+  text-align: center;
+  margin: 0.5em 0;
+  color: #3498db;
+}
+
+body .section .form {
+  padding: 25px 35px;
+}
+
+body .section .form .form-section {
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+body .section .form .form-section label {
+  color: #666;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+body .section .form .form-section input {
+  display: block;
+  border: 2px solid #3498db;
+  font-size: 1em;
+  padding: 0.5em;
+  width: 100%;
+  border-radius: 5px;
+}
+
+body .section .form .form-section input:focus {
+  outline: 0;
+  border: 2px solid #333;
+}
+
+body .section .form .form-section small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+body .section .form .form-section .icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #008026;
+  visibility: hidden;
+}
+
+body .section button {
+  cursor: pointer;
+  border: none;
+  padding: 1em;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 1.2em;
+  background-color: #6db9ec;
+  color: #fff;
+}
+
+body .section button:hover {
+  color: #000;
+}
+/*# sourceMappingURL=style.css.map */
